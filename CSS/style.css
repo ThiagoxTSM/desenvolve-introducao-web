@@ -75,7 +75,7 @@ aside ul li{
 }
 #design-selection {
     position: absolute;
-    top: 520px;
+    top: 560px;
     left: 62%;
     padding-left: 1%;
     padding-right: 1%;
@@ -100,12 +100,14 @@ aside ul li{
 .participation {
     display: flex;
     flex-wrap: wrap;
-    border-top: 1px solid #1f295c;
-    border-bottom: solid 1px #1f295c;
+    border-top: 1px solid #1f295c;/*sem border-bottom para tirar borda dupla */
 }
 .participation h3, .participation p {
     flex-basis: 50%;
 }
 .participation h3 {
     align-self: center;
+}
+#zen-requirements {
+    text-align: center
 }
