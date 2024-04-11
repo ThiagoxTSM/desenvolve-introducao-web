@@ -1,4 +1,3 @@
-/* Color Theme Swatches in Hex */
 .Natureza-1-hex { background: #025159; }
 .Natureza-3-hex { color: #038C8C; }
 .Natureza-4-hex { color: #BF9A78; }
@@ -6,15 +5,15 @@ html {background: #BF9A78; color: #025159;}
 .destaque {color: #038C8C;}
 
 html{
-    font-size: 17px; /*tamanho da fonte*/
-    font-family: sans-serif /*tipo da fonte*/
+    font-size: 17px; 
+    font-family: sans-serif 
   }
 p{
-    text-indent: 1em; /*parágrafo*/
+    text-indent: 1em; 
 }
 
 h1,h2,h3{
-    text-align: center; /*centralizei os 3 títulos*/
+    text-align: center; 
 }
 h1{
     font-size: 1.8rem;
@@ -26,21 +25,21 @@ h3{
     font-size: 1.2rem;
 }
 .summary{
-    text-align: center; /*alinhei o texto ao centro*/
+    text-align: center; 
 }
-.main p{line-height: 1.5;} /*espaçamento entre as linhas do parágrafo*/
+.main p{line-height: 1.5;} 
 abbr {font-variant: small-caps;} 
 
 .pagewrapper{
-    width: 80%;  /*largura geral da página*/
-    max-width: 1280px; /*largura máxima que o conteúdo vai ocupar*/
-    margin: auto;/*o navegador calcula a distribuiçao do espaço de margem*/
+    width: 80%;  
+    max-width: 1280px; 
+    margin: auto;
 }
 #zen-intro{
     height: 550px;
 }
 #design-archives{
-    display: none; /*o navegador retira o elemento da renderização, é como se o elemento não existisse*/
+    display: none; 
 }
 #zen-intro header{
      background-color:#025159;
@@ -54,7 +53,7 @@ abbr {font-variant: small-caps;}
     margin-right: 1em;
 }
 aside ul{
-    list-style-type: none; /*não definir nenhum símbolo para os links*/
+    list-style-type: none; 
 }
 aside ul li{
     margin: 1em;
@@ -64,7 +63,7 @@ aside ul li{
     margin: 4%;
 }
 .main footer a {
-    border: solid 2px #BF9A78 ;
+    border: solid 2px #1f295c;
     padding: 0,5em;
 }
 .pagewrapper {position: relative;}
@@ -76,9 +75,37 @@ aside ul li{
 }
 #design-selection {
     position: absolute;
-    top: 560px;
+    top: 520px;
     left: 62%;
     padding-left: 1%;
     padding-right: 1%;
-
+}
+.supporting footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+.benefits {
+    display: flex;
+    border-top: #1f295c solid 1px;
+    border-bottom: #1f295c solid 1px;
+}
+.benefits h3 {
+    order: 2;
+    align-self: center;
+    flex-basis: 30%;
+}
+.benefits p {
+    flex-basis: 70%;
+}
+.participation {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #1f295c;
+    border-bottom: solid 1px #1f295c;
+}
+.participation h3, .participation p {
+    flex-basis: 50%;
+}
+.participation h3 {
+    align-self: center;
 }
