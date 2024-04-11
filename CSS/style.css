@@ -72,8 +72,10 @@ aside ul li{
     margin-right: 35%;   
     border-right: solid #1f295c 1px;
     padding-right: 2%;
+    margin-bottom: 7%;
+    overflow: auto;
 }
-#design-selection {
+.design-selection {
     position: absolute;
     top: 560px;
     left: 62%;
