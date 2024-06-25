@@ -1,14 +1,15 @@
 :root {
-    --cor-fundo: rgb(34, 41, 37);
-    --cor-hover: rgb(118, 180, 145);
-    --cor-primaria: rgb(231, 241, 236);
+    --cor-fundo: rgb(213, 56, 13);
+    --cor-hover: rgb(0, 0, 0);
+    --cor-primaria: rgb(255, 255, 255);
   }
-  
   .dropmenu ul {
     list-style-type: none;
     padding: 0;
   }
-  
+  .dropmenu {
+    position: relative top 40px;
+  }
   .dropmenu ul {
     background-color: var(--cor-fundo);
   }
@@ -48,4 +49,4 @@
   .dropmenu ul ul li a {
     display: block;
   }
-  
+  header{background-color: orangered;}
