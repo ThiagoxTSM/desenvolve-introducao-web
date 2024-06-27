@@ -2,3 +2,27 @@
     display: flex;
     flex-direction: row;
 } 
+img {width: 100px;
+    height: 100px}  
+
+
+#hidraulicaa {background-color: blue;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;}
+#eletricaa {background-color: yellow;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;}
+#pinturaa {background-color: brown;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;}
+#instalaçaoo {display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+background-color: chartreuse;}
+#manutençaoo {display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+background-color: black;}
