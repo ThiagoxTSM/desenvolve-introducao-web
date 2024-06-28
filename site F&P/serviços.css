@@ -2,27 +2,68 @@
     display: flex;
     flex-direction: row;
 } 
-img {width: 100px;
-    height: 100px}  
+img {width: 160px;
+    height: 160px}  
 
-
-#hidraulicaa {background-color: blue;
+#hidraulica {background: linear-gradient(#555455, #4E554D, #2B3434);
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;}
-#eletricaa {background-color: yellow;
+#eletrica {background: #d5380d;
+;display: flex;
+flex-direction: row;
+flex-wrap: wrap;}
+#pintura {background: linear-gradient(#555455, #4E554D, #2B3434);
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;}
-#pinturaa {background-color: brown;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;}
-#instalaçaoo {display: flex;
+#instalacao {display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-background-color: chartreuse;}
-#manutençaoo {display: flex;
+background: #d5380d}
+#manutencao {display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-background-color: black;}
+    background: linear-gradient(#555455, #4E554D, #2B3434);}
+.rodape{
+    background-color: #efcd8c;
+}
+
+main div{
+    top: 1px;
+    margin: 0;
+    margin-left: 80px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: white;
+    width: 205px;
+    height: 315px;
+    perspective: 10000px;
+    font-family: 'Libre Baskerville';
+    position: relative;
+    align-items: center;
+    border: 3px solid gray;
+    border-radius: 0.8em;
+}
+
+main div {
+    background-color:;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+main section h2{
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 46px;
+    text-align: center;
+    width: 100%;
+}
+.contato{
+font-weight: bold;
+}

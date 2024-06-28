@@ -14,7 +14,6 @@ html{
   }
   .dropmenu {
     position: relative top 40px;
-    
   }
   .dropmenu ul {
     background-color: var(--cor-fundo);
@@ -68,22 +67,32 @@ html{
 header p{color: white;}
 
 .titulo h1{color: white;
-
+  position: relative;
+ left: 30%;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
-
-header h2{color: white;}
 
 .redes{
   display: flex;
   flex-direction: column;
   margin-right: 50px;
   flex-wrap: nowrap;
+  left: 75%;
+  position: relative;
+  bottom: 70px;
+  margin-bottom: 50px;
 }
+
+.lateral p{
+  margin-left: 25px;
+}
+
 
 .contato{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  padding-bottom: 10px;
 }
 
 #imagem{
@@ -91,10 +100,16 @@ header h2{color: white;}
     width: 230px;
     padding-left: 50px;
     padding-top: 25px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
   }
 
   .lateral { display: flex;
-    padding-left: 70%;
-    margin-left: 0%;
-    padding-top: 0%;}
+    padding-left: 0%;
+    margin-left: 55px;
+    padding-top: 100px;}
+    
+    .cabeça {
+      display: flex;
+      flex-direction: row;
+      -ms-flex-align: center;
+  }
