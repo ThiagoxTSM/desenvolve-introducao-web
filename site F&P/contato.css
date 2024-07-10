@@ -1,0 +1,16 @@
+main {background: white;
+border: solid white 1px;
+border-radius: 10px;}
+
+.contatos {
+    display:flex ;
+    flex-direction: row;
+    flex-wrap:nowrap ;
+    align-content: space-evenly;
+    text-align: center;}
+
+.contatos div {
+    padding: 8%;
+}
+img {width: 160px;
+    height: 160px}

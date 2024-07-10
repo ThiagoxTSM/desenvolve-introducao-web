@@ -2,9 +2,11 @@
 <html>
 
 <head>
-    <title>FeP Reparos e Reformas</title>   
+    <title>FeP Reparos e Reformas</title>
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="fonte.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="home.css">
     <link rel="shortcut icon" type="imagex/png" href="./imgs/LOGOTIPO F&P - Reparos e Reforma.png.jpg">
     <meta>
 </head>
@@ -16,34 +18,35 @@
                 , com a inscrição FeP reparos e reformas abaixo" height="210 px" ; width="210 px" id="imagem"> </a>
             <div class="lateral">
                 <div class="titulo">
-                    <h1> F&P  REPAROS E REFORMAS </h1>
+                    <h1> F&P REPAROS E REFORMAS </h1>
                 </div>
                 <div class="redes">
                     <div class="contato">
-                        <a href="www.instagram dele aqui"> <img src="imgs/instagram-6338393_1280.png"
-                                alt="logo do instagram" width="40" height="40 "></a>
+                        <a href="https://www.instagram.com/fep.reparosereformas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                            target="_blank"> <img src="imgs/instagram-6338393_1280.png" alt="logo do instagram"
+                                width="40" height="40 "></a>
                         <p>@fep.reparosereformas</p>
                     </div>
                     <div class="contato">
-                        <a href="www.wpp dele aqui"> <img src="imgs/whatsapp-1623579_1280.png" alt="logo do whatsapp"
-                                width="40" height="40"></a>
+                        <a href="https://wa.me/message/HQVEEU45G7OZO1" target="_blank"> <img
+                                src="imgs/whatsapp-1623579_1280.png" alt="logo do whatsapp" width="40" height="40"></a>
                         <p>(31) 98959-2759</p>
                     </div>
                 </div>
             </div>
-        </section> 
+        </section>
         <div class="dropmenu">
             <nav>
-                <ul>
+                <ul class="barra_navegacao">
                     <li> <a href="index.html"> Home </a> </li>
                     <li> <a href="sobre_nos.html"> Sobre nós </a> </li>
-                    <li> <a href="serviços.html"> Serviços</a>
+                    <li class="lista_serviços"> <a href="serviços.html"> Serviços</a>
                         <ul>
-                            <li> <a href="serviços.html#hidraulicaa" target="_blank"> Hidraulica</a> </li>
-                            <li> <a href="serviços.html#eletricaa" target="_blank"> Elétrica</a> </li>
-                            <li> <a href="serviços.html#pinturaa" target="_blank"> Pintura</a> </li>
-                            <li> <a href="serviços.html#instalaçaoo" target="_blank"> Instalação</a> </li>
-                            <li> <a href="serviços.html#manutençaoo" target="_blank"> Manutenção</a> </li>
+                            <li> <a href="serviços.html#hidraulica"> Hidraulica</a> </li>
+                            <li> <a href="serviços.html#eletrica"> Elétrica</a> </li>
+                            <li> <a href="serviços.html#pintura"> Pintura</a> </li>
+                            <li> <a href="serviços.html#instalacao"> Instalação</a> </li>
+                            <li> <a href="serviços.html#manutencao"> Manutenção</a> </li>
                         </ul>
                     </li>
                     <li> <a href="contato.html"> Contato </a></li>
@@ -52,7 +55,6 @@
         </div>
     </header>
     <main>
-
         <section class="carrossel">
             <!-- Carrossel 
             <section class="galeria">
@@ -74,57 +76,41 @@
             </section>
             </section> -->
 
-            <section class="servicos">
+            <section class="principais_servicos">
                 <!-- Serviços -->
-                <div class="cards">
-                    <div class="hidraulica1">
-                        <h3> Hidráulica </h3>
-                    </div>
-                    <div class="hidraulica2">
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem placeat praesentium est
-                            dolorum culpa natus ducimus laborum in, rerum molestiae dolor, quas voluptatum dicta
-                            quibusdam facilis! Laboriosam nesciunt officia adipisci? </p>
-                        <a href="..."> <button>Conheça mais</button> </a>
-                    </div>
-
-                    <div class="eletrica1">
-                        <h3> Elétrica </h3>
-                    </div>
-                    <div class="eletrica2">
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem placeat praesentium est
-                            dolorum culpa natus ducimus laborum in, rerum molestiae dolor, quas voluptatum dicta
-                            quibusdam facilis! Laboriosam nesciunt officia adipisci? </p>
-                        <a href="..."> <button>Conheça mais</button> </a>
-                    </div>
-
-                    <div class="pintura1">
-                        <h3> Pintura </h3>
-                    </div>
-                    <div class="pintura2">
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem placeat praesentium est
-                            dolorum culpa natus ducimus laborum in, rerum molestiae dolor, quas voluptatum dicta
-                            quibusdam facilis! Laboriosam nesciunt officia adipisci? </p>
-                        <a href="..."> <button>Conheça mais</button> </a>
-                    </div>
-                </div>
-
-                <div class="instalacao1">
-                    <h3> Instalação </h3>
-                </div>
-                <div class="instalacao2">
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem placeat praesentium est dolorum
-                        culpa natus ducimus laborum in, rerum molestiae dolor, quas voluptatum dicta quibusdam facilis!
-                        Laboriosam nesciunt officia adipisci? </p>
+                <div class="hidraulica1">
+                    <h3 class="titulo_servico"> Hidráulica </h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem placeat praesentium est
+                        dolorum culpa natus ducimus laborum in, rerum molestiae dolor, quas voluptatum dicta
+                        quibusdam facilis! Laboriosam nesciunt officia adipisci? </p>
                     <a href="..."> <button>Conheça mais</button> </a>
                 </div>
-
-                <div class="manutencao1">
-                    <h3> Manutenção </h3>
+                <div class="eletrica1">
+                    <h3 class="titulo_servico"> Elétrica </h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem placeat praesentium est
+                        dolorum culpa natus ducimus laborum in, rerum molestiae dolor, quas voluptatum dicta
+                        quibusdam facilis! Laboriosam nesciunt officia adipisci? </p>
+                    <a href="..."> <button>Conheça mais</button> </a>
                 </div>
-                <div class="manutencao2">
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem placeat praesentium est dolorum
-                        culpa natus ducimus laborum in, rerum molestiae dolor, quas voluptatum dicta quibusdam facilis!
-                        Laboriosam nesciunt officia adipisci? </p>
+                <div class="pintura1">
+                    <h3 class="titulo_servico"> Pintura </h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem placeat praesentium est
+                        dolorum culpa natus ducimus laborum in, rerum molestiae dolor, quas voluptatum dicta
+                        quibusdam facilis! Laboriosam nesciunt officia adipisci? </p>
+                    <a href="..."> <button>Conheça mais</button> </a>
+                </div>
+                <div class="instalacao1">
+                    <h3 class="titulo_servico"> Instalação </h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem placeat praesentium est
+                        dolorum culpa natus ducimus laborum in, rerum molestiae dolor, quas voluptatum dicta
+                        quibusdam facilis! Laboriosam nesciunt officia adipisci? </p>
+                    <a href="..."> <button>Conheça mais</button> </a>
+                </div>
+                <div class="manutencao1">
+                    <h3 class="titulo_servico">Manutenção</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem placeat praesentium est
+                        dolorum culpa natus ducimus laborum in, rerum molestiae dolor, quas voluptatum dicta
+                        quibusdam facilis! Laboriosam nesciunt officia adipisci? </p>
                     <a href="..."> <button>Conheça mais</button> </a>
                 </div>
             </section>
@@ -134,14 +120,41 @@
 
             </section>
     </main>
-    <footer class="rodape">
-        <p>Visite nossa página</p>
-        <a href="https://www.instagram.com/fep.reparosereformas?igsh=MXgxYnVuOGZuYmdkcQ==">Instagram</a>
-        <p>Fale conosco</p>
-        <a href="https://api.whatsapp.com/message/HQVEEU45G7OZO1?autoload=1&app_absent=0">WhatsApp</a>
-        <p>Onde estamos: </p>
-        <P> Itabira e região</p>
-    </footer>
-</body>
+    <footer class="rodape" id="contato">
+        <div class="rodape-div">
+
+            <div class="rodape-div-1">
+                <div class="rodape-div-1-coluna">
+                    <span><b><img src="imgs/loooogo.png" alt=""></b></span>
+                    <p>F&P Reparos e Reformas</p>
+                </div>
+            </div>
+
+            <div class="rodape-div-2">
+                <div class="rodape-div-2-coluna">
+                    <span><b>Contatos</b></span>
+                    <section class="contato">
+                        <a href="www.instagram dele aqui"> <img src="imgs/instagram-6338393_1280.png"
+                                alt="logo do instagram" width="40" height="40 "></a>
+                        <p>@fep.reparosereformas</p>
+                    </section>
+                    <section class="contato">
+                        <a href="www.wpp dele aqui"> <img src="imgs/whatsapp-1623579_1280.png" alt="logo do whatsapp"
+                                width="40" height="40"></a>
+                        <p>(31) 98959-2759</p>
+                    </section>
+                </div>
+            </div>
+
+            <div class="rodape-div-3">
+                <div class="rodape-div-3-coluna">
+                    <span><b>Links</b></span>
+                    <p><a href="serviços.html">Serviços</a></p>
+                    <p><a href="sobre_nos.html">Empresa</a></p>
+                    <p><a href="contato.html">Sobre</a></p>
+                </div>
+            </div>
+        </div>
+        <p clas </body>
 
 </html>

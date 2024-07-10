@@ -1,13 +1,30 @@
 html{
-  padding: 0;
-  margin: 0;
+  padding: -1;
+  background: rgb(239, 40, 0);
+  margin: -1;
+  scroll-behavior: smooth;
 }
 
 :root {
-    --cor-fundo: #d5380d;
+    --cor-fundo: rgb(194, 26, 4);
     --cor-hover: rgb(0, 0, 0);
     --cor-primaria: rgb(255, 255, 255);
   }
+nav {
+  border: solid rgb(194, 26, 4) 1px;
+  border-radius: 10px;
+}
+
+.dropmenu {
+  border: solid rgb(194, 26, 4) 1px;
+  border-radius: 10px;
+}
+
+.dropmenu ul {
+  border: solid rgb(194, 26, 4) 1px;
+  border-radius: 10px;
+}
+
   .dropmenu ul {
     list-style-type: none;
     padding: 0;
@@ -17,23 +34,40 @@ html{
   }
   .dropmenu ul {
     background-color: var(--cor-fundo);
+    display: flex;
+    align-content: space-around;
   }
   
   .dropmenu ul li {
     display: inline;
     position: relative;
+    margin-left: 15px;
   }
+  
+
   
   .dropmenu ul li a {
     color: var(--cor-primaria);
     text-decoration: none;
     display: inline-block;
     padding: 10px;
+    font-size: 20px;
     transition: background 0.3s;
+    border: solid rgb(194, 26, 4) 1px;
+    border-radius: 10px;
+  }
+
+  .lista_serviços ul li a{
+    border: solid rgb(194, 26, 4) 0.1px;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 4px;
   }
   
   .dropmenu ul li a:hover {
     background-color: var(--cor-hover);
+    border: solid rgb(194, 26, 4) 1px;
+    border-radius: 10px;
   }
   
   
@@ -45,6 +79,7 @@ html{
   
   .dropmenu ul li:hover ul {
     display: block;
+
   }
   
   .dropmenu ul ul {
@@ -55,7 +90,7 @@ html{
     display: block;
   }
   header{
-    background-color: #ff4500;
+    background-color: rgb(239, 40, 0);
     width: auto;}
 
 
@@ -69,7 +104,7 @@ header p{color: white;}
 .titulo h1{color: white;
   position: relative;
  left: 30%;
- font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .redes{
@@ -77,9 +112,9 @@ header p{color: white;}
   flex-direction: column;
   margin-right: 50px;
   flex-wrap: nowrap;
-  left: 75%;
+  left: 80%;
   position: relative;
-  bottom: 70px;
+  bottom: 20px;
   margin-bottom: 50px;
 }
 
@@ -93,6 +128,7 @@ header p{color: white;}
   flex-direction: row;
   flex-wrap: nowrap;
   padding-bottom: 10px;
+  font-weight: bold;
 }
 
 #imagem{
@@ -112,4 +148,7 @@ header p{color: white;}
       display: flex;
       flex-direction: row;
       -ms-flex-align: center;
+  }
+  ul{
+    margin: 0px;
   }
