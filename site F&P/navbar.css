@@ -1,10 +1,6 @@
 html{
-  padding: -1;
   background: rgb(239, 40, 0);
-  margin: -1;
-  scroll-behavior: smooth;
 }
-
 :root {
     --cor-fundo: rgb(194, 26, 4);
     --cor-hover: rgb(0, 0, 0);
@@ -12,8 +8,7 @@ html{
   }
 nav {
   border: solid rgb(194, 26, 4) 1px;
-  border-radius: 10px;
-}
+  border-radius: 10px;}
 
 .dropmenu {
   border: solid rgb(194, 26, 4) 1px;
@@ -35,7 +30,7 @@ nav {
   .dropmenu ul {
     background-color: var(--cor-fundo);
     display: flex;
-    align-content: space-around;
+    justify-content: space-around;
   }
   
   .dropmenu ul li {
@@ -51,22 +46,20 @@ nav {
     text-decoration: none;
     display: inline-block;
     padding: 10px;
-    font-size: 20px;
+    font-size: 25px;
     transition: background 0.3s;
-    border: solid rgb(194, 26, 4) 1px;
     border-radius: 10px;
   }
 
   .lista_serviços ul li a{
     border: solid rgb(194, 26, 4) 0.1px;
     border-radius: 10px;
-    font-size: 17px;
+    font-size: 20px;
     padding: 4px;
   }
   
   .dropmenu ul li a:hover {
     background-color: var(--cor-hover);
-    border: solid rgb(194, 26, 4) 1px;
     border-radius: 10px;
   }
   
@@ -79,7 +72,6 @@ nav {
   
   .dropmenu ul li:hover ul {
     display: block;
-
   }
   
   .dropmenu ul ul {
@@ -110,19 +102,12 @@ header p{color: white;}
 .redes{
   display: flex;
   flex-direction: column;
-  margin-right: 50px;
   flex-wrap: nowrap;
-  left: 80%;
+  left: 70%;
   position: relative;
   bottom: 20px;
   margin-bottom: 50px;
 }
-
-.lateral p{
-  margin-left: 25px;
-}
-
-
 .contato{
   display: flex;
   flex-direction: row;
@@ -141,7 +126,7 @@ header p{color: white;}
 
   .lateral { display: flex;
     padding-left: 0%;
-    margin-left: 55px;
+    margin-left: 15px;
     padding-top: 100px;}
     
     .cabeça {
@@ -152,3 +137,7 @@ header p{color: white;}
   ul{
     margin: 0px;
   }
+
+.contato p {
+  margin-left: 4px;}
+  

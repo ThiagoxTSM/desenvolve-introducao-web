@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="fonte.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="carrosel.css">
+    <link rel="stylesheet" href="botoes_flutuantes.css">
     <link rel="shortcut icon" type="imagex/png" href="./imgs/LOGOTIPO F&P - Reparos e Reforma.png.jpg">
     <meta>
 </head>
@@ -38,8 +40,7 @@
         <div class="dropmenu">
             <nav>
                 <ul class="barra_navegacao">
-                    <li> <a href="index.html"> Home </a> </li>
-                    <li> <a href="sobre_nos.html"> Sobre nós </a> </li>
+                    <li> <a href="index.html"> Início </a> </li>
                     <li class="lista_serviços"> <a href="serviços.html"> Serviços</a>
                         <ul>
                             <li> <a href="serviços.html#hidraulica"> Hidraulica</a> </li>
@@ -49,76 +50,138 @@
                             <li> <a href="serviços.html#manutencao"> Manutenção</a> </li>
                         </ul>
                     </li>
+                    <li> <a href="sobre_nos.html"> Sobre nós </a> </li>
                     <li> <a href="contato.html"> Contato </a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <section class="carrossel">
-            <!-- Carrossel 
-            <section class="galeria">
-                <h2 tabindex="0" id="Galeria"> Galeria </h2>
-                <div class="slides">
-                    <div class="slide slide-1"> 
-                        <img src="..." alt=""> 
-                    </div>
-                    <div class="slide slide-2"> 
-                        <img src="..." alt=""> 
-                    </div>
-                    <div class="slide slide-3"> 
-                        <img src="..." alt=""> 
-                    </div>
-                    <div class="slide slide-4"> 
-                        <img src="..." alt=""> 
-                    </div>
-                </div>
-            </section>
-            </section> -->
+        <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <div id="slides">
+               <div id="overflow">
+                  <div class="inner">
+                     <div class="slide slide_1">
+                        <div class="slide-content">
+                           <h2>Slide 1</h2>
+                           <p>Content for Slide 1</p>
+                        </div>
+                     </div>
+                     <div class="slide slide_2">
+                        <div class="slide-content">
+                           <h2>Slide 2</h2>
+                           <p>Content for Slide 2</p>
+                        </div>
+                     </div>
+                     <div class="slide slide_3">
+                        <div class="slide-content">
+                           <h2>Slide 3</h2>
+                           <p>Content for Slide 3</p>
+                        </div>
+                     </div>
+                     <div class="slide slide_4">
+                        <div class="slide-content">
+                           <h2>Slide 4</h2>
+                           <p>Content for Slide 4</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="controls">
+               <label for="slide1">  </label>
+               <label for="slide2">  </label>
+               <label for="slide3">  </label>
+               <label for="slide4">  </label>
+            </div>
+            <div id="bullets">
+               <label for="slide1">  </label>
+               <label for="slide2">  </label>
+               <label for="slide3">  </label>
+               <label for="slide4">  </label>
+            </div>
+        </div>
 
             <section class="principais_servicos">
                 <!-- Serviços -->
+                <h1>PRINCIPAIS <span style="color: rgb(239, 40, 0);"> SERVIÇOS </span> </h1>
                 <div class="hidraulica1">
-                    <h3 class="titulo_servico"> Hidráulica </h3>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem placeat praesentium est
-                        dolorum culpa natus ducimus laborum in, rerum molestiae dolor, quas voluptatum dicta
-                        quibusdam facilis! Laboriosam nesciunt officia adipisci? </p>
-                    <a href="..."> <button>Conheça mais</button> </a>
+                    <div class="flip-card-front">
+                        <p> Troca de torneiras, sifões, detecção de vazamentos, limpeza de caixa d'água, troca de
+                            registro, entre outros serviços.
+                        </p>
+                        <a href="serviços.html#hidraulica"> <button>Conheça mais</button> </a>
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="imgs/torneira.png">
+                        <h3 class="titulo_servico"> Hidráulica </h3>
+                    </div>
                 </div>
                 <div class="eletrica1">
-                    <h3 class="titulo_servico"> Elétrica </h3>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem placeat praesentium est
-                        dolorum culpa natus ducimus laborum in, rerum molestiae dolor, quas voluptatum dicta
-                        quibusdam facilis! Laboriosam nesciunt officia adipisci? </p>
-                    <a href="..."> <button>Conheça mais</button> </a>
+                    <div class="flip-card-front">
+                        <p> Tomadas, lâmpadas, luminárias, troca de resistência, fiação elétrica, troca de disjuntor,
+                            entre outros serviços.
+                        </p>
+                        <a href="serviços.html#eletrica"> <button>Conheça mais</button> </a>
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="imgs/ícone_elétrica.png" alt="desenho de um raio amarelo">
+                        <h3 class="titulo_servico"> Elétrica </h3>
+                    </div>
                 </div>
                 <div class="pintura1">
-                    <h3 class="titulo_servico"> Pintura </h3>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem placeat praesentium est
-                        dolorum culpa natus ducimus laborum in, rerum molestiae dolor, quas voluptatum dicta
-                        quibusdam facilis! Laboriosam nesciunt officia adipisci? </p>
-                    <a href="..."> <button>Conheça mais</button> </a>
+                    <div class="flip-card-front">
+                        <p> Pinturas e repinturas no geral, pintura com verniz, impermeabilização de caixa d'água e
+                            lajes, entre outros serviços.
+                        </p>
+                        <a href="serviços.html#pintura"> <button>Conheça mais</button> </a>
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="imgs/icone_pintura.png" alt="rolo de pintura com tinta rosa">
+                        <h3 class="titulo_servico"> Pintura </h3>
+                    </div>
                 </div>
                 <div class="instalacao1">
-                    <h3 class="titulo_servico"> Instalação </h3>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem placeat praesentium est
-                        dolorum culpa natus ducimus laborum in, rerum molestiae dolor, quas voluptatum dicta
-                        quibusdam facilis! Laboriosam nesciunt officia adipisci? </p>
-                    <a href="..."> <button>Conheça mais</button> </a>
+                    <div class="flip-card-front">
+                        <p> Câmeras, cerca elétrica, fechadura digital, lava-louças, máquina de lavar, interfones, entre
+                            outros serviços.
+                        </p>
+                        <a href="serviços.html#instalação"> <button>Conheça mais</button> </a>
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="imgs/icone_camera.png" alt="câmera de segurança">
+                        <h3 class="titulo_servico"> Instalação </h3>
+                    </div>
                 </div>
                 <div class="manutencao1">
-                    <h3 class="titulo_servico">Manutenção</h3>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem placeat praesentium est
-                        dolorum culpa natus ducimus laborum in, rerum molestiae dolor, quas voluptatum dicta
-                        quibusdam facilis! Laboriosam nesciunt officia adipisci? </p>
-                    <a href="..."> <button>Conheça mais</button> </a>
+                    <div class="flip-card-front">
+                        <p> Telhados, móveis, gesso, limpeza de calhas, aquecedores e placas solares, entre outros
+                            serviços.
+                        </p>
+                        <a href="serviços.html#manutencao"> <button>Conheça mais</button> </a>
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="imgs/icone_manutencao.png" alt="">
+                        <h3 class="titulo_servico"> Manutenção </h3>
+                    </div>
                 </div>
             </section>
 
-            <section class="feedbacks">
-                <!-- Comentarios -->
-
+            <section class="serviços_reais">
+                <!-- Serviços reais -->
+                <a href="..."> </a>
             </section>
+
+            <a href="#" class="btn"></a>
+            <div id="wpp_fixo">
+                <a href="https://wa.me/message/HQVEEU45G7OZO1" target="_blank"> 
+                    <img src="imgs/whatsapp-1623579_1280.png" alt="logo do whatsapp" width="40" height="40">
+                </a>
+            </div>
     </main>
     <footer class="rodape" id="contato">
         <div class="rodape-div">
@@ -155,6 +218,6 @@
                 </div>
             </div>
         </div>
-        <p clas </body>
+    </footer>
 
 </html>
