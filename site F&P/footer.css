@@ -59,9 +59,34 @@ img {width: 160px;
 @media (max-width: 768px) {
     .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
         width: calc(50% - 20px);
-        padding: 10px;
+        left: 50%;
+        display: flex;
+        text-align: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
     }
     .rodape-div{
         padding: 60px 0px 40px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .contato{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-items: center;
+
+    }
+
+    div .rodape {
+        display: flex;
+        justify-content: center;
+        text-align: center
     }
 }

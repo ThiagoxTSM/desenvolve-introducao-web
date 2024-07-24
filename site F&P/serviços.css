@@ -126,3 +126,11 @@ main section h2 {
   text-align: center;
   width: 100%;
 }
+
+@media (max-width: 500px) {
+  main section div {
+    width: 365px;
+    height: 700px;
+  }
+
+}

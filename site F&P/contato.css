@@ -31,3 +31,10 @@ img {width: 160px;
     button:hover {
         background-color:#ff4f30;
     }
+
+    @media (max-width: 768px) {
+        .contatos {
+            flex-direction: column;
+            flex-wrap:wrap;
+    }
+}

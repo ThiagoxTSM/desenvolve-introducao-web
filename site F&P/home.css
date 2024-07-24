@@ -283,3 +283,85 @@ button:hover {
 div p{
     font-size: 20px;
 }
+
+@media (max-width: 1249px) {
+    .aside{
+        display: flex;
+        flex-direction: column;
+    }
+    .aside img {
+        width: auto;
+        height: auto;
+    }
+    .historia {
+        width: auto;
+        padding: 25px;
+    }
+    .comentarios div {
+        width: 320px;
+        height: auto;
+}
+    @media (max-width: 987px) {
+        .valores { 
+            display: flex;
+            flex-direction: column;
+    }
+    .comentarios{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap ;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        height: 100%;
+        border: solid   white 0.5px;
+        border-radius: 10px;
+    }
+    .comentarios div {
+        border: solid rgb(239, 40, 0) 1px ;
+        border-radius: 25px;
+        text-align: center;
+        background: rgb(239, 40, 0);
+        color: white;
+        width: 350px;
+        height: 160px
+    }
+    #titulo-historia{
+        padding-top: 0px;
+        font-size: 30px;
+    }
+    #titulo_comen {
+        font-size: 30px
+    }
+    .principais_servicos h1 {
+        padding-top: 0px;
+        font-size: 30px;
+    }
+ }
+}
+
+@media (max-width: 500px ) {
+    .dropmenu  ul li a {display: block;
+      font-size: 16px;
+    }
+    .barra_navegacao {
+      padding: 20px ; 
+    }
+    .cabeça{
+      width: auto;
+      height: 230px;
+    }
+    header{
+        height: 282px;
+    }
+    .titulo h1{
+        font-size: 15px;
+        left: 0;
+        text-align: center;
+      }
+      .comentarios div {
+        width: auto;
+        height: auto;
+    }
+
+  }
+  
