@@ -38,6 +38,13 @@ section img {
   background-color: rgb(112, 218, 95);
 }
 
+#hidraulica,  #eletrica, #pintura, #instalacao, #manutencao{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 #hidraulica {
   background: rgb(9, 146, 200);
   border: solid rgb(9, 146, 200) 1px;
@@ -90,9 +97,9 @@ section img {
 main section div {
   top: 1px;
   margin: 0;
-  margin-left: 80px;
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
   background-color: white;
   width: 205px;
   height: 315px;
@@ -103,6 +110,7 @@ main section div {
   border: 3px solid gray;
   border-radius: 0.8em;
 }
+
 
 .servicos div {
   /*  background-color:; cor de fundo do card se precisar */
@@ -127,10 +135,3 @@ main section h2 {
   width: 100%;
 }
 
-@media (max-width: 500px) {
-  main section div {
-    width: 365px;
-    height: 700px;
-  }
-
-}

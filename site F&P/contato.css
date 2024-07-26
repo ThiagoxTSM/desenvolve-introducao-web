@@ -1,40 +1,53 @@
-main {background: white;
-border: solid white 1px;
-border-radius: 10px;}
+main {
+    background: white;
+    border: solid white 1px;
+    border-radius: 10px;
+}
 
 .contatos {
-    display:flex ;
+    display: flex;
     flex-direction: row;
-    flex-wrap:nowrap ;
+    flex-wrap: nowrap;
     align-content: space-evenly;
-    text-align: center;}
+    text-align: center;
+}
 
 .contatos div {
     padding: 8%;
 }
-img {width: 160px;
-    height: 160px}
 
-    button {
-        background-color:rgb(194, 26, 4);
-        color: white;
-        font-weight: 600;
-        width: 60%;
-        margin-top: 20px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 15px;}
-    
-    button:hover {
-        background-color:#ff4f30;
-    }
+img {
+    width: 160px;
+    height: 160px
+}
 
-    @media (max-width: 768px) {
-        .contatos {
-            flex-direction: column;
-            flex-wrap:wrap;
+button {
+    background-color: rgb(194, 26, 4);
+    color: white;
+    font-weight: 600;
+    width: 60%;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #ff4f30;
+}
+
+@media (max-width: 920px) {
+    .contatos {
+        flex-direction: column;
+        flex-wrap:wrap;
+}
+}
+@media (max-width: 500px) {
+    .nav_servico {
+        visibility: hidden;
+        display: none;
     }
 }
